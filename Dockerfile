@@ -4,7 +4,7 @@ EXPOSE 8081
 ENV JENKINS_HOME /var/lib/jenkins
 
 RUN apt-get update && \
-    apt-get --no-install-recommends install -q -y openjdk-8-jre-headless wget nginx maven && \ 
+    apt-get --no-install-recommends install -q -y openjdk-8-jre-headless wget maven && \ 
     rm -rf /var/lib/apt/lists/*
 
 # jenkins download and unpack
