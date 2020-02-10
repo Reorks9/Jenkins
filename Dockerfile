@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-EXPOSE 8080
+EXPOSE 8081
 # home directory for jenkins
 ENV JENKINS_HOME /var/lib/jenkins
 
